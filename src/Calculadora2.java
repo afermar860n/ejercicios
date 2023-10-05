@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Calculadora {
+
+public class Calculadora2 {
 
     public static void main(String[] args) {
 
@@ -23,6 +24,9 @@ public class Calculadora {
 
     }
     public static double suma(double a, double b){
+        a++; //a = a + 1
+        b--;// b = b - 1
+        --b;//
         return  a + b;
 
     }
@@ -38,5 +42,11 @@ public class Calculadora {
         return  a / b;
 
     }
+    // ejemplo cadena 0 seria la letra "h" de la cadena y 1 seria la letra "o"
+    String cadena = "hola mundo";
+    cadena c= cadena.charAt(0);
 
+     // coge la entrada del teclado del primer metodo
+    String cadena2 = entrada.next;
+    char c1= cadena.charAt(0);
 }
