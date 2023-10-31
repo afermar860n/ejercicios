@@ -1,22 +1,24 @@
 import java.util.Scanner;
 
-public class EJERCICIO3 {
-    public static void main (String[] args){
+public class Ejercicio3 {
+    public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada= new Scanner(System.in);
 
-        float nota1 = entrada.nextFloat();
-        float nota2 = entrada.nextFloat();
-        float nota3 = entrada.nextFloat();
+        System.out.println("Introduce el número de pizzas: ");
+        int pizzas = entrada.nextInt();
+
+        System.out.println("Introduce el número de porciones por pizza: ");
+        int porciones = entrada.nextInt();
+
+        System.out.println("Introduce el número de amigos: ");
+        int amigos = entrada.nextInt();
 
         entrada.close();
 
-        float media = (nota1 + nota2 + nota3)/3;
+        int porcionesPorPersona = (pizzas * porciones) / amigos;
+        int porcionesSobrantes = (pizzas * porciones) % amigos;
 
-        String mensaje = (media >= 5)? "APROBADO": "SUSPENSO";
-
-        System.out.printf("La nota media es %f, rl alumno está %s", media , mensaje);
+        System.out.printf("Tocan a %d por persona y sobran %d porciones.", porcionesPorPersona, porcionesSobrantes);
     }
-
-
 }
