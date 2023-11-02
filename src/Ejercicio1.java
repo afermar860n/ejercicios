@@ -23,5 +23,8 @@ public class Ejercicio1 {
         System.out.println("Solución b: " + solucion_b);
         System.out.println("Solución c: " + solucion_c);
 
+        double numeroQueMeSaleDeLosCojones = Math.random() * 100 +1;
+        System.out.println(numeroQueMeSaleDeLosCojones);
+
     }
 }

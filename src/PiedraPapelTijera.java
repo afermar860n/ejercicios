@@ -46,6 +46,10 @@ public class PiedraPapelTijera {
                 case 'c':
                     elegidoJugador = 3;
                     break;
+
+                default:
+                    elegidoJugador = 1;
+                    break;
             }
 
             int elegidoOrdenador = (int) (Math.random() * 3 + 1);

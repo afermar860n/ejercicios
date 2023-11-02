@@ -15,10 +15,10 @@ public class AdivinaNumero {
           num2 = s.nextInt();
 
           if (num1 > num2){
-              System.out.print("el numero es mayor");
+              System.out.print("el numero es mayor \n");
           }
           else if (num1 < num2){
-              System.out.print("el numero es menor");
+              System.out.print("el numero es menor \n" );
           }
           else{
               System.out.print("¡Acertaste! el numero era " + num1);

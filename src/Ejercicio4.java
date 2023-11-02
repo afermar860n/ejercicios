@@ -10,6 +10,8 @@ public class Ejercicio4 {
 
         entrada.close();
 
+
+
         int max = (x > y) ? ((x > z) ? x : z) : ((y > z) ? y : z);
         int min = (x < y) ? ((x < z) ? x : z) : ((y < z) ? y : z);
 

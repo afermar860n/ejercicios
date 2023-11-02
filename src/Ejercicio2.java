@@ -12,7 +12,13 @@ public class Ejercicio2 {
 
         String resultado = (transformacion=='F') ?
                              celsius + " grados celsius son " + (9*celsius/5 + 32) + " grados Fahrenheit" :
-                                celsius + " grados celsius son " + (celsius + 273.15) + " grados Kelvin";
+                                celsius + " grados celsius son " + (celsius + 273.15) + " gradosif Kelvin";
+        // if(transformacion == "F") {
+        // celsius + " grados celsius son " + (9*celsius/5 + 32) + " grados Fahrenheit"
+        //} else {
+        // celsius + " grados celsius son " + (celsius + 273.15) + " gradosif Kelvin"
+        // }
+
         System.out.println(resultado);
     }
 }
